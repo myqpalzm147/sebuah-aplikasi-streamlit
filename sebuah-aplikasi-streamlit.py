@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Simulates Jupyter Notebook (?)
-from IPython import get_ipython
+# from IPython import get_ipython
 
 # Data Analysis
 import pandas as pd
