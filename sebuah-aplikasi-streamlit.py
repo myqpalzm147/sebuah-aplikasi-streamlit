@@ -59,14 +59,14 @@ plt.pie(data_home1,labels=data_home1.index.values,autopct='%1.0f%%')
 
 st.pyplot()
 
-height = data_home1['H']
-bars = data_home1.index.values
-y_pos = np.arange(len(bars))
-plt.bar(y_pos, height, color=(0.2, 0.4, 0.6, 0.6))
-plt.xticks(y_pos, bars)
-plt.show()
+# height = data_home1['H']
+# bars = data_home1.index.values
+# y_pos = np.arange(len(bars))
+# plt.bar(y_pos, height, color=(0.2, 0.4, 0.6, 0.6))
+# plt.xticks(y_pos, bars)
+# plt.show()
 
-st.pyplot()
+# st.pyplot()
 
 st.subheader('Away Team')
 
@@ -76,11 +76,11 @@ plt.pie(data_home2,labels=data_home2.index.values,autopct='%1.0f%%')
 
 st.pyplot()
 
-height = data_home2['A']
-bars = data_home2.index.values
-y_pos = np.arange(len(bars))
-plt.bar(y_pos, height, color=(0.2, 0.4, 0.6, 0.6))
-plt.xticks(y_pos, bars)
-plt.show()
+# height = data_home2['A']
+# bars = data_home2.index.values
+# y_pos = np.arange(len(bars))
+# plt.bar(y_pos, height, color=(0.2, 0.4, 0.6, 0.6))
+# plt.xticks(y_pos, bars)
+# plt.show()
 
-st.pyplot()
+# st.pyplot()
