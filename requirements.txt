@@ -1,2 +1,3 @@
 certifi==2019.9.11
 wincertstore==0.2
+streamlit
