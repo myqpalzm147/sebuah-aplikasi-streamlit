@@ -1,6 +1,9 @@
 #OG package
 import streamlit as st
 
+# Simulates Jupyter Notebook (?)
+from IPython import get_ipython
+
 # Data Analysis
 import pandas as pd
 import numpy as np
@@ -8,7 +11,8 @@ import numpy as np
 # Data Visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# another way of saying "%matplotlib inline", because vanilla Python doesn't suppport % but IPython does.
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
 #Prevent warnings
 import warnings
