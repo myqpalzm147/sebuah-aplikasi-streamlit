@@ -3,6 +3,6 @@ wincertstore==0.2
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 warnings
